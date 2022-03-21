@@ -71,6 +71,6 @@ public class MemberController {
     }
     @GetMapping(value = "hello" )
     public String sayHello() {
-        return "groupe Devops 2022 hello";
+        return "Devops 2022 hello ";
     }
 }
