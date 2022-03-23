@@ -75,6 +75,13 @@ public class MemberController {
     }
     @GetMapping(value = "/hi" )
     public String sayHi() {
-        return "Salut !";
+        return "Salut douma !";
+
+
+    }
+    @GetMapping(value = "/add" )
+    public String add() {
+        return "khawla add !";
+
     }
 }
